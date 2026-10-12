@@ -1,0 +1,21 @@
+{
+  "name": "contentstack-custom-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": { "contentstack-custom-mcp": "dist/server.js" },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "tsx src/server.ts"
+  },
+  "engines": { "node": ">=18.17" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
